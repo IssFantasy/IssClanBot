@@ -22,6 +22,8 @@ async def on_ready():
 async def on_message(message):
     if message.content == '!biscottodellafortuna':
         await client.send_message(message.channel,'oggi respirerai')
+    if message.content == '!biscottodellafortuna2':
+        await client.send_message(message.channel,'domani ti sveglierai')
     if message.content == '!monkas':
         em = discord.Embed(description='quando il truffatore ti truffa')
         em.set_image(url='https://cdn.discordapp.com/attachments/519157517100777473/519157818046021632/monka_s.png')
@@ -37,7 +39,7 @@ async def on_message(message):
         em.set_image(url='https://cdn.discordapp.com/attachments/519157517100777473/519169473807253511/pd.png')
         await client.send_message(message.channel, embed=em)
     if message.content == '!comandi':
-        await client.send_message(message.channel,'hacker, monkas, dio, biscottodellafortuna, petriniascuola, pd')
+        await client.send_message(message.channel,'hacker, monkas, dio, biscottodellafortuna,biscottodellafortuna2, petriniascuola, pd')
     if message.content == '!hacker':
         em = discord.Embed(description='quando riesci a trovare la password della scuola')
         em.set_image(url='https://cdn.discordapp.com/attachments/519157517100777473/519172372792606730/hacerman.jpg')
