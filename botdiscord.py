@@ -22,6 +22,8 @@ async def on_ready():
 async def on_message(message):
     if message.content == '!biscottodellafortuna':
         await client.send_message(message.channel,'oggi respirerai')
+    if message.content == '!monster':
+        await client.send_message(message.channel,'MoNsTeR MeRdA')
     if message.content == '!biscottodellafortuna2':
         await client.send_message(message.channel,'domani ti sveglierai')
     if message.content == '!monkas':
