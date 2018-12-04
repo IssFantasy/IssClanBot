@@ -30,7 +30,7 @@ async def on_message(message):
         await client.send_message(message.channel, embed=em)
     if message.content == '!younesmerda':
         em = discord.Embed(description='lol')
-        em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519548128932659210/nm.jpg')
+        em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519550047948636160/nm.jpg')
         await client.send_message(message.channel, embed=em)
     if message.content == '!dio':
         em = discord.Embed(description='dio ti sta guardando')
