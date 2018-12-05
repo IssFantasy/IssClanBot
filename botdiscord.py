@@ -46,7 +46,7 @@ async def on_message(message):
         await client.send_message(message.channel, embed=em)
     if message.content == '!beppe':
         em = discord.Embed(description='IL CACCIA DI BEPPE-MIKY')
-        em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519806336935002114/caccia.png')
+        em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519873207864393736/caccia.png')
     if message.content == '!genio':
         em = discord.Embed(description='sei il nostro salvatore')
         em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519871636590034944/genius_nibba.png')
