@@ -44,8 +44,12 @@ async def on_message(message):
         em = discord.Embed(description='il pd ti guarda')
         em.set_image(url='https://cdn.discordapp.com/attachments/519157517100777473/519169473807253511/pd.png')
         await client.send_message(message.channel, embed=em)
+    if message.content == '!beppe':
+        em = discord.Embed(description='IL CACCIA DI BEPPE-MIKY')
+        em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519806336935002114/caccia.png')
+        await client.send_message(message.channel, embed=em)
     if message.content == '!comandi':
-        await client.send_message(message.channel,'younesmerda, hacker, monkas, dio, biscottodellafortuna, petriniascuola, pd')
+        await client.send_message(message.channel,'beppe, younesmerda, hacker, monkas, dio, biscottodellafortuna, petriniascuola, pd')
     if message.content == '!hacker':
         em = discord.Embed(description='quando riesci a trovare la password della scuola')
         em.set_image(url='https://cdn.discordapp.com/attachments/519157517100777473/519172372792606730/hacerman.jpg')
