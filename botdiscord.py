@@ -49,7 +49,7 @@ async def on_message(message):
         em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519806336935002114/caccia.png')
     if message.content == '!genio':
         em = discord.Embed(description='sei il nostro salvatore')
-        em.set_image(url='https://cdn.discordapp.com/attachments/519544327366770719/519811109373476864/genius_nibba.jpg')
+        em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519871636590034944/genius_nibba.png')
         await client.send_message(message.channel, embed=em)
     if message.content == '!bravissimo':
         em = discord.Embed(description='sei un genio')
