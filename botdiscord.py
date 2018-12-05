@@ -33,6 +33,7 @@ async def on_message(message):
     if message.content == '!perfection':
         em = discord.Embed(description='deja vous')
         em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519874117495685120/perfection.jpg')
+        await client.send_message(message.channel, embed=em)
     if message.content == '!younesmerda':
         em = discord.Embed(description='lol')
         em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519550047948636160/nm.jpg')
@@ -50,6 +51,7 @@ async def on_message(message):
     if message.content == '!beppe':
         em = discord.Embed(description='IL CACCIA DI BEPPE-MIKY')
         em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519873207864393736/caccia.png')
+        await client.send_message(message.channel, embed=em)
     if message.content == '!genio':
         em = discord.Embed(description='sei il nostro salvatore')
         em.set_image(url='https://cdn.discordapp.com/attachments/519159557264769038/519871636590034944/genius_nibba.png')
@@ -59,7 +61,7 @@ async def on_message(message):
         em.set_image(url='https://cdn.discordapp.com/attachments/519544327366770719/519812645835243530/you_dont_say.png')
         await client.send_message(message.channel, embed=em)
     if message.content == '!comandi':
-        await client.send_message(message.channel,'perfection, beppe, dio, monster, bravissimo, genio, younesmerda, hacker, monkas, dio, biscottodellafortuna, petriniascuola, pd')
+        await client.send_message(message.channel,'beppe, dio, monster, bravissimo, genio, younesmerda, hacker, monkas, dio, biscottodellafortuna, petriniascuola, pd')
     if message.content == '!hacker':
         em = discord.Embed(description='quando riesci a trovare la password della scuola')
         em.set_image(url='https://cdn.discordapp.com/attachments/519157517100777473/519172372792606730/hacerman.jpg')
